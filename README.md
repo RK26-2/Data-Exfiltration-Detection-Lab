@@ -13,20 +13,20 @@ This lab simulates an insider-threat data exfiltration scenario on a Windows end
    - KQL (Kusto Query Language)
 
 🎯**Attack Simulation Overview**
-The following insider-threat behaviours were simulated:
+ *The following insider-threat behaviours were simulated*
    - Sensitive files creation
    - File renaming and modification
    - File compression into a ZIP archive
    - Attempted exfiltration to an external service
    - Deleting local evidence
-Sysmon captured the activity and Sentinel was used to analyse and detect the behaviour.
+- Sysmon captured the activity and Sentinel was used to analyse and detect the behaviour.
 
 🔍**Detection Logic**
 A custom analytics rule was created to detect:
     - File creation of sensitive data (EventID 11)
     - Process execution related to compression (EventID 1)
     - Outbound network connections (EventID 3)
-The rule triggered when all three behaviours occurred within a short time window.
+- The rule triggered when all three behaviours occurred within a short time window.
 
 ## 📁 Repository Structure
 
