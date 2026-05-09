@@ -33,13 +33,18 @@ This lab simulates an insider-threat data exfiltration scenario on a Windows end
 ## 📁 Repository Structure
 
 📦 Data-Exfiltration-Detection-Lab
+
  ┣ 📄 👉 README.md
+ 
  ┣ 📄 👉 Full Report: [SOC-Report-DLP.pdf](SOC-Report-DLP.pdf)
+ 
  ┣ 📁 👉 screenshots : [screenshots](screenshots/)
+ 
  ┗ 📄 .gitignore
 
 
 **MITRE ATT&CK Mapping**
+
 
 | Technique | ID | Description |
 | --- | --- | --- |
@@ -47,8 +52,10 @@ This lab simulates an insider-threat data exfiltration scenario on a Windows end
 | Archive Collected Data | T1560 | ZIP archive created |
 | Exfiltration Over Web | T1567 | Outbound connection to external service |
 
+
 **Sample Screenshots**
 https://github.com/RK26-2/Data-Exfiltration-Detection-Lab/tree/main/screenshots
+
 
 **Lab-Report**
 https://github.com/RK26-2/Data-Exfiltration-Detection-Lab/blob/main/SOC-Report-DLP.pdf
